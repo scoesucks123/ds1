@@ -1,0 +1,24 @@
+user@user-1-2:~/Desktop/temp2-main/DSEDIT/assignment1ds$ javac *.java
+user@user-1-2:~/Desktop/temp2-main/DSEDIT/assignment1ds$ rmic AddServerImpl
+Warning: generation and use of skeletons and static stubs for JRMP
+is deprecated. Skeletons are unnecessary, and static stubs have
+been superseded by dynamically generated stubs. Users are
+encouraged to migrate away from using rmic to generate skeletons and static
+stubs. See the documentation for java.rmi.server.UnicastRemoteObject.
+user@user-1-2:~/Desktop/temp2-main/DSEDIT/assignment1ds$ rmiregistry
+
+
+NOW OPEN NEW TERMINAL.................
+
+user@user-1-2:~/Desktop/temp2-main/DSEDIT/assignment1ds$ java AddServer
+
+
+NOW OPEN NEW TERMINAL.................
+
+
+user@user-1-2:~/Desktop/temp2-main/DSEDIT/assignment1ds$ java AddClient 127.0.0.1 12 45
+The first number is: 12
+The second number is: 45
+The sum is: 57.0
+
+
